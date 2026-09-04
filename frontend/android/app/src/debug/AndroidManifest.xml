@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Debug-build-only manifest override (Gradle merges this into the main
+  manifest automatically for `assembleDebug`/`bundleDebug`, never for
+  `assembleRelease`/`bundleRelease`).
+
+  Why: Android 9+ (API 28+) blocks plain HTTP ("cleartext") network traffic
+  by default. That's correct and desirable for the shipped app, which talks
+  to the deployed backend over HTTPS — but it also silently breaks every
+  axios call during LOCAL TESTING, where the backend is reached over plain
+  HTTP at http://10.0.2.2:5005 (Android emulator) or http://<your-LAN-IP>:5005
+  (physical device) — see frontend/.env.android and ANDROID.md.
+
+  This turns cleartext traffic back on, but ONLY for debug builds. Release
+  builds (what you'd actually publish) keep Android's default cleartext
+  block, so production traffic to the deployed backend stays HTTPS-only —
+  this file changes nothing about release build security.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:usesCleartextTraffic="true" />
+</manifest>
