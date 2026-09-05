@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ORD-mtndzgou-s5262r",
+    "farmerName": "Anubhab Das",
+    "farmerPhone": "7439235872",
+    "location": "Bangalore",
+    "shopName": null,
+    "items": [
+      {
+        "id": "P001",
+        "name": "GrowShield Pro",
+        "category": "fungicide",
+        "price": 450,
+        "qty": 1
+      }
+    ],
+    "totalAmount": 450,
+    "status": "ready",
+    "claimedByShopId": "SHOP-003",
+    "claimedByShopName": "Bannerghatta Agri Store",
+    "shopPhone": "+91 98450 33445",
+    "delivery": {
+      "fullName": "Anubhab Das",
+      "phone": "7439235872",
+      "address": "Bangalore",
+      "landmark": "",
+      "pincode": "",
+      "paymentMode": "cod",
+      "submittedAt": "2026-09-04T20:09:05.463Z"
+    },
+    "createdAt": "2026-09-04T20:08:29.502Z",
+    "statusUpdatedAt": "2026-09-04T20:08:49.641Z"
+  }
+]

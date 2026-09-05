@@ -1,0 +1,110 @@
+/* Ensure smooth page transitions */
+main > * {
+  animation: fadeUp 0.5s ease-out both;
+}
+
+/* Navbar Responsive Rules
+   Breakpoint is 900px, not the more common 768px: at 5 nav links + logo +
+   auth/account controls, the desktop row's own min-content width is ~840-880px,
+   so anything narrower than 900px (small laptop windows, tablets in portrait,
+   split-screen) overflowed the 769px cutoff before it ever got flex/grid room
+   to breathe. Content-driven, measured against the actual nav items below. */
+@media (max-width: 900px) {
+  .nav-desktop-only {
+    display: none !important;
+  }
+  .nav-mobile-only {
+    display: flex !important;
+  }
+  .nav-grid-container {
+    display: flex !important;
+    justify-content: space-between !important;
+    padding: 0 16px !important;
+  }
+}
+
+@media (min-width: 901px) {
+  .nav-desktop-only {
+    display: flex !important;
+  }
+  .nav-mobile-only {
+    display: none !important;
+  }
+  .nav-grid-container {
+    display: grid !important;
+    grid-template-columns: 1fr auto 1fr !important;
+    gap: 24px !important;
+    padding: 0 32px !important;
+  }
+}
+
+/* Mobile drawer entrance — the one authored motion for the navbar */
+@keyframes navDrawerIn {
+  from { opacity: 0; transform: translateY(-8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.nav-drawer-enter {
+  animation: navDrawerIn 0.22s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Keyboard focus — themed ring instead of the default blue outline */
+.app-navbar a:focus-visible,
+.app-navbar button:focus-visible {
+  outline: 2px solid rgba(34, 197, 94, 0.6);
+  outline-offset: 2px;
+}
+
+/* Home hero — asymmetric split on desktop, stacks on small screens */
+.home-hero-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 48px;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .home-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+/* Feature/step boxes that flank the scroll-driven photo gallery on the
+   homepage (see Home.jsx + ScrollGrowthPlant.jsx). All three columns sit
+   in one grid row, so the row's height is set by whichever card stack is
+   tallest — the center column then has that same height available for
+   its sticky child to stay pinned in while the visitor scrolls past the
+   surrounding cards, and un-stick naturally once the row ends. No column
+   ever overlaps another; nothing here uses position:fixed or an absolute
+   page-spanning overlay. */
+.growth-flank-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 300px) minmax(0, 1fr);
+  column-gap: clamp(24px, 4vw, 48px);
+  /* stretch (not start): the center grid cell must span the FULL row
+     height (set by whichever flanking stack is tallest) for its sticky
+     child to have room to travel — with `start` here the center cell
+     would just be as tall as the photo card and sticky would have
+     nothing to stick within. */
+  align-items: stretch;
+}
+
+.growth-plant-sticky {
+  position: sticky;
+  top: 88px; /* fixed navbar (56px) + a little breathing room */
+}
+
+@media (max-width: 900px) {
+  .growth-flank-row {
+    grid-template-columns: 1fr;
+  }
+  .growth-flank-row > div {
+    grid-column: 1 / -1 !important;
+  }
+  .growth-plant-sticky {
+    position: static;
+    max-width: 300px;
+    margin: 8px auto 24px;
+  }
+}
+

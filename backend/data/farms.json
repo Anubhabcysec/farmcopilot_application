@@ -1,0 +1,15 @@
+[
+  {
+    "id": "FARM-mtn9rwtk-i79ixi",
+    "farmerId": "U-mtn9ie8m-puxtu4",
+    "name": "Farm 2",
+    "location": "New Horizon College of Engineering, New Horizon College Road, Kariyammana Agrahara, Kaadubeesanahalli, Panathur, Bengaluru East City Corporation, Bengaluru, Bangalore East, Bengaluru Urban, Karnataka, 560103, India",
+    "coords": {
+      "lat": 12.933313,
+      "lng": 77.692474
+    },
+    "currentCrop": "Maize",
+    "cropHistory": [],
+    "createdAt": "2026-09-04T18:10:38.696Z"
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "SOIL-mtna4kkd-yjoxiy",
+    "farmerId": "U-mtn9ie8m-puxtu4",
+    "farmId": "FARM-mtn9kjip-vwik5x",
+    "readings": {
+      "n": 142,
+      "p": 38,
+      "k": 96,
+      "ph": 6.4,
+      "moisture": 28.5,
+      "temperature": 26.8,
+      "tds": 410
+    },
+    "extras": null,
+    "source": "manual",
+    "stabilitySeconds": null,
+    "crop": "Onion",
+    "createdAt": "2026-09-04T18:20:29.341Z",
+    "analysis": null,
+    "analysedAt": null
+  },
+  {
+    "id": "SOIL-mtnanay9-1g56uz",
+    "farmerId": "U-mtn9ie8m-puxtu4",
+    "farmId": "FARM-mtn9kjip-vwik5x",
+    "readings": {
+      "n": 53,
+      "p": 169,
+      "k": 163,
+      "ph": 5.6,
+      "moisture": 46.8,
+      "temperature": 24.5,
+      "tds": 220
+    },
+    "extras": {
+      "ec": 441,
+      "salinity": 242
+    },
+    "source": "device",
+    "stabilitySeconds": 10,
+    "crop": "Onion",
+    "createdAt": "2026-09-04T18:35:03.345Z",
+    "analysis": null,
+    "analysedAt": null
+  },
+  {
+    "id": "SOIL-mtnaper5-w6fd4k",
+    "farmerId": "U-mtn9ie8m-puxtu4",
+    "farmId": "FARM-mtn9kjip-vwik5x",
+    "readings": {
+      "n": 53,
+      "p": 169,
+      "k": 163,
+      "ph": 5.6,
+      "moisture": 46.7,
+      "temperature": 24.5,
+      "tds": 220
+    },
+    "extras": {
+      "ec": 441,
+      "salinity": 242
+    },
+    "source": "device",
+    "stabilitySeconds": 10,
+    "crop": "Onion",
+    "createdAt": "2026-09-04T18:36:41.585Z",
+    "analysis": null,
+    "analysedAt": null
+  }
+]

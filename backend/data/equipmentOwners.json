@@ -1,0 +1,16 @@
+[
+  {
+    "id": "OWN-mtn9jdq7-xjhe4p",
+    "farmerId": "U-mtn9ie8m-puxtu4",
+    "farmerName": "Anubhab Das",
+    "farmerPhone": "7439235872",
+    "machineType": "EQ-TRAC",
+    "machineName": "Mahindra 575 DI Tractor (45 HP)",
+    "location": "talaghattapura,bangalore",
+    "coords": null,
+    "biddingPrice": "10000",
+    "available": true,
+    "rating": 4.5,
+    "createdAt": "2026-09-04T18:04:00.703Z"
+  }
+]

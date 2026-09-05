@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": "P001",
+      "name": "GrowShield Pro",
+      "category": "fungicide",
+      "crops": ["wheat", "rice", "cotton"],
+      "activeIngredient": "Tebuconazole 25.9% EC",
+      "dosage": "1ml per litre of water",
+      "applicationWindow": "Early disease symptoms stage",
+      "reEntryInterval": "12 hours",
+      "batchFormat": "GS-YYYY-XXXX",
+      "price": 450,
+      "unit": "250ml",
+      "verified": true,
+      "whyThis": "Broad-spectrum systemic fungicide effective against rust, blight and leaf spot"
+    },
+    {
+      "id": "P002",
+      "name": "NitroBurst 46",
+      "category": "fertilizer",
+      "crops": ["all"],
+      "activeIngredient": "Urea 46% N",
+      "dosage": "50kg per acre",
+      "applicationWindow": "30 days after sowing",
+      "reEntryInterval": "4 hours",
+      "batchFormat": "NB-YYYY-XXXX",
+      "price": 1200,
+      "unit": "50kg bag",
+      "verified": true,
+      "whyThis": "High nitrogen content for vegetative growth; soil moisture required for activation"
+    },
+    {
+      "id": "P003",
+      "name": "BugOff Max",
+      "category": "insecticide",
+      "crops": ["cotton", "vegetables", "pulses"],
+      "activeIngredient": "Imidacloprid 17.8% SL",
+      "dosage": "0.5ml per litre of water",
+      "applicationWindow": "At first sign of pest infestation",
+      "reEntryInterval": "24 hours",
+      "batchFormat": "BM-YYYY-XXXX",
+      "price": 320,
+      "unit": "100ml",
+      "verified": true,
+      "whyThis": "Systemic insecticide; highly effective against sucking pests like aphids, whitefly, jassids"
+    },
+    {
+      "id": "P004",
+      "name": "RootMax Bio",
+      "category": "biostimulant",
+      "crops": ["all"],
+      "activeIngredient": "Humic acid 12% + Fulvic acid 3%",
+      "dosage": "2ml per litre of water",
+      "applicationWindow": "Transplanting or early growth stage",
+      "reEntryInterval": "0 hours",
+      "batchFormat": "RB-YYYY-XXXX",
+      "price": 280,
+      "unit": "500ml",
+      "verified": true,
+      "whyThis": "Improves root development and nutrient uptake; safe for organic farming"
+    }
+  ]
+}

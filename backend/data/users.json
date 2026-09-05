@@ -1,0 +1,15 @@
+[
+  {
+    "id": "U-mtn9ie8m-puxtu4",
+    "name": "Anubhab Das",
+    "email": "anubhabdas426@gmail.com",
+    "phone": "7439235872",
+    "passwordHash": "$2b$10$BF7MqkqRVqzLz5.Fym8Cpu5vYEAi/KJMX0u0wRiGFD1vC6bOI35cm",
+    "fieldLocation": "Bangalore",
+    "fieldLocationCoords": {
+      "lat": 12.9767936,
+      "lng": 77.590082
+    },
+    "createdAt": "2026-09-04T18:03:14.710Z"
+  }
+]

@@ -1,0 +1,209 @@
+[
+  {
+    "id": "SHOP-001",
+    "name": "Kumbalgodu Agro Centre",
+    "coords": {
+      "lat": 12.8898,
+      "lng": 77.4519
+    },
+    "phone": "+91 98450 11223"
+  },
+  {
+    "id": "SHOP-002",
+    "name": "Kengeri Farm Supplies",
+    "coords": {
+      "lat": 12.9081,
+      "lng": 77.4835
+    },
+    "phone": "+91 98450 22334"
+  },
+  {
+    "id": "SHOP-003",
+    "name": "Bannerghatta Agri Store",
+    "coords": {
+      "lat": 12.8004,
+      "lng": 77.5773
+    },
+    "phone": "+91 98450 33445"
+  },
+  {
+    "id": "SHOP-004",
+    "name": "Tavarekere Fertilizer Depot",
+    "coords": {
+      "lat": 12.8763,
+      "lng": 77.6031
+    },
+    "phone": "+91 98450 44556"
+  },
+  {
+    "id": "SHOP-mtn9gyvl-b1imxv",
+    "name": "Sri vinayaka fertilizers & pesticides",
+    "coords": {
+      "lat": 13.0371566,
+      "lng": 77.5915528
+    },
+    "phone": null
+  },
+  {
+    "id": "SHOP-mtn9gyvl-rzeu1x",
+    "name": "Green Garden Agricultural Agency",
+    "coords": {
+      "lat": 12.9115213,
+      "lng": 77.5952602
+    },
+    "phone": null
+  },
+  {
+    "id": "SHOP-mtn9gyvl-mix5s0",
+    "name": "Srinivasa Agro seeds",
+    "coords": {
+      "lat": 12.9610718,
+      "lng": 77.5710816
+    },
+    "phone": null
+  },
+  {
+    "id": "SHOP-mtn9gyvl-oxwqgu",
+    "name": "Mysore Fertiliser Company Pvt. Ltd.",
+    "coords": {
+      "lat": 12.9612502,
+      "lng": 77.5712075
+    },
+    "phone": null
+  },
+  {
+    "id": "SHOP-mtn9gyvl-t6plff",
+    "name": "Kashmir Seeds",
+    "coords": {
+      "lat": 12.9847701,
+      "lng": 77.6058415
+    },
+    "phone": null
+  },
+  {
+    "id": "SHOP-mtn9gyvl-bdusbz",
+    "name": "Genuine Fert & Pest Pvt Ltd",
+    "coords": {
+      "lat": 13.0282885,
+      "lng": 77.5368486
+    },
+    "phone": null
+  },
+  {
+    "id": "SHOP-mtn9gyvl-6wv7wu",
+    "name": "SRIMANJUNATHASWAMY AGROSERVICES",
+    "coords": {
+      "lat": 12.9612824,
+      "lng": 77.5711741
+    },
+    "phone": null
+  },
+  {
+    "id": "SHOP-mtn9gyvl-r70r6s",
+    "name": "INDIAN AGRO SEEDS CORPORATION",
+    "coords": {
+      "lat": 12.9635361,
+      "lng": 77.5772258
+    },
+    "phone": null
+  },
+  {
+    "id": "SHOP-mtn9lgt0-qg5dbk",
+    "name": "Sri Manjunatha Enterprises",
+    "coords": {
+      "lat": 12.9967811,
+      "lng": 77.7658574
+    },
+    "phone": null
+  },
+  {
+    "id": "SHOP-mtn9lgt0-0atr3i",
+    "name": "Sri Chandrashekar Enterprises",
+    "coords": {
+      "lat": 12.9378161,
+      "lng": 77.7474429
+    },
+    "phone": null
+  },
+  {
+    "id": "SHOP-mtn9lgt0-gvgbot",
+    "name": "MS Fertilizers & Pesticides",
+    "coords": {
+      "lat": 12.9371706,
+      "lng": 77.74578029999999
+    },
+    "phone": null
+  },
+  {
+    "id": "SHOP-mtn9lgt0-ifnt32",
+    "name": "Sri Lakshmi Venkateshwara Agro Traders",
+    "coords": {
+      "lat": 12.8636172,
+      "lng": 77.7864299
+    },
+    "phone": null
+  },
+  {
+    "id": "SHOP-mtn9lgt0-gsju6x",
+    "name": "Sri chowdeshwari agro centre",
+    "coords": {
+      "lat": 12.861989,
+      "lng": 77.7862538
+    },
+    "phone": null
+  },
+  {
+    "id": "SHOP-mtn9lgt0-7b3diz",
+    "name": "Sigma Fertilizers",
+    "coords": {
+      "lat": 13.0033153,
+      "lng": 77.6997552
+    },
+    "phone": null
+  },
+  {
+    "id": "SHOP-mtn9lgt0-8jgwj3",
+    "name": "Kashmir Fertilizers",
+    "coords": {
+      "lat": 12.9847629,
+      "lng": 77.6060423
+    },
+    "phone": null
+  },
+  {
+    "id": "SHOP-mtnfnrdd-rlrxgq",
+    "name": "Sri Venkateshwara Hybrid Seeds",
+    "coords": {
+      "lat": 13.0404082,
+      "lng": 77.5898577
+    },
+    "phone": null
+  },
+  {
+    "id": "SHOP-mtnfnrdd-j96qc1",
+    "name": "Bharani Agro Seeds",
+    "coords": {
+      "lat": 12.9773027,
+      "lng": 77.5772771
+    },
+    "phone": null
+  },
+  {
+    "id": "SHOP-mtnfnrdd-aj74ot",
+    "name": "Microgreens Bangalore",
+    "coords": {
+      "lat": 13.0397336,
+      "lng": 77.5722734
+    },
+    "phone": null
+  },
+  {
+    "id": "SHOP-mtnfnrdd-gyr03h",
+    "name": "Saptagiri Traders",
+    "coords": {
+      "lat": 13.0971777,
+      "lng": 77.5965835
+    },
+    "phone": null
+  }
+]

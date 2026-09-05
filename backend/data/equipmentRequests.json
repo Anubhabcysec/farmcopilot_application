@@ -1,0 +1,150 @@
+[
+  {
+    "id": "REQ-mtn9nc9c-zcnyhc",
+    "farmerName": "Anubhab Das",
+    "farmerPhone": "7439235872",
+    "location": "Kaggalipura, Bengaluru",
+    "coords": {
+      "lat": 12.855621,
+      "lng": 77.7246606
+    },
+    "equipmentTypeId": "EQ-TRAC",
+    "equipmentTypeName": "Tractor",
+    "workType": "Ploughing & Land Prep",
+    "landAreaAcres": 3,
+    "requiredDateRaw": "2026-09-05",
+    "requiredTimeRaw": "08:00",
+    "requiredDate": "05 Sept 2026",
+    "preferredTime": "08:00 AM",
+    "status": "booked",
+    "quotes": [
+      {
+        "quoteId": "QUOTE-mtn9nhjj-gjnehs",
+        "ownerId": null,
+        "ownerName": "Kaggalipura Farm Equipment Rentals",
+        "machineName": "Tractor",
+        "distanceKm": "7.8 km",
+        "rating": 4.3,
+        "calculatedPrice": 1630,
+        "shopName": "Kaggalipura Farm Equipment Rentals",
+        "shopId": "SHOP-mtn9nhjj-l16nrh",
+        "shopPhone": "+91 98413726",
+        "demo": true
+      }
+    ],
+    "acceptedQuote": {
+      "quoteId": "QUOTE-mtn9nhjj-gjnehs",
+      "ownerId": null,
+      "ownerName": "Kaggalipura Farm Equipment Rentals",
+      "machineName": "Tractor",
+      "distanceKm": "7.8 km",
+      "rating": 4.3,
+      "calculatedPrice": 1630,
+      "shopName": "Kaggalipura Farm Equipment Rentals",
+      "shopId": "SHOP-mtn9nhjj-l16nrh",
+      "shopPhone": "+91 98413726",
+      "demo": true
+    },
+    "bookedAt": "2026-09-04T18:07:17.408Z",
+    "createdAt": "2026-09-04T18:07:05.424Z"
+  },
+  {
+    "id": "REQ-mtn9r500-6gpkvp",
+    "farmerName": "Anubhab Das",
+    "farmerPhone": "7439235872",
+    "location": "Kaggalipura, Bengaluru",
+    "coords": {
+      "lat": 12.855621,
+      "lng": 77.7246606
+    },
+    "equipmentTypeId": "EQ-TRAC",
+    "equipmentTypeName": "Tractor",
+    "workType": "Ploughing & Land Prep",
+    "landAreaAcres": 3,
+    "requiredDateRaw": "2026-09-05",
+    "requiredTimeRaw": "08:00",
+    "requiredDate": "05 Sept 2026",
+    "preferredTime": "08:00 AM",
+    "status": "pending",
+    "quotes": [
+      {
+        "quoteId": "QUOTE-mtn9srme-le9nia",
+        "ownerId": null,
+        "ownerName": "Kaggalipura Farm Equipment Rentals",
+        "machineName": "Tractor",
+        "distanceKm": "5.3 km",
+        "rating": 4.3,
+        "calculatedPrice": 1593,
+        "shopName": "Kaggalipura Farm Equipment Rentals",
+        "shopId": "SHOP-mtn9srmf-7orez1",
+        "shopPhone": "+91 98466480",
+        "demo": true
+      },
+      {
+        "quoteId": "QUOTE-mtn9srmf-fphu6v",
+        "ownerId": null,
+        "ownerName": "Bengaluru Rural Machinery Hub",
+        "machineName": "Tractor",
+        "distanceKm": "5.9 km",
+        "rating": 4.6,
+        "calculatedPrice": 1566,
+        "shopName": "Bengaluru Rural Machinery Hub",
+        "shopId": "SHOP-mtn9srmf-ubjibc",
+        "shopPhone": "+91 98479790",
+        "demo": true
+      }
+    ],
+    "acceptedQuote": null,
+    "bookedAt": null,
+    "createdAt": "2026-09-04T18:10:02.640Z"
+  },
+  {
+    "id": "REQ-mtndjs8q-0pquye",
+    "farmerName": "Anubhab Das",
+    "farmerPhone": "7439235872",
+    "location": "Kaggalipura, Bengaluru",
+    "coords": {
+      "lat": 12.855621,
+      "lng": 77.7246606
+    },
+    "equipmentTypeId": "EQ-TRAC",
+    "equipmentTypeName": "Tractor",
+    "workType": "Ploughing & Land Prep",
+    "landAreaAcres": 1,
+    "requiredDateRaw": "2026-09-06",
+    "requiredTimeRaw": "08:00",
+    "requiredDate": "06 Sept 2026",
+    "preferredTime": "08:00 AM",
+    "status": "booked",
+    "quotes": [
+      {
+        "quoteId": "QUOTE-mtndjx27-5g7sn7",
+        "ownerId": null,
+        "ownerName": "Bengaluru Rural Machinery Hub",
+        "machineName": "Tractor",
+        "distanceKm": "4.6 km",
+        "rating": 4.6,
+        "calculatedPrice": 489,
+        "shopName": "Bengaluru Rural Machinery Hub",
+        "shopId": "SHOP-mtndjx27-nanx05",
+        "shopPhone": "+91 98418482",
+        "demo": true
+      }
+    ],
+    "acceptedQuote": {
+      "quoteId": "QUOTE-mtndjx27-5g7sn7",
+      "ownerId": null,
+      "ownerName": "Bengaluru Rural Machinery Hub",
+      "machineName": "Tractor",
+      "distanceKm": "4.6 km",
+      "rating": 4.6,
+      "calculatedPrice": 489,
+      "shopName": "Bengaluru Rural Machinery Hub",
+      "shopId": "SHOP-mtndjx27-nanx05",
+      "shopPhone": "+91 98418482",
+      "demo": true
+    },
+    "bookedAt": "2026-09-04T19:56:30.223Z",
+    "createdAt": "2026-09-04T19:56:17.978Z"
+  }
+]

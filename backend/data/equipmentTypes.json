@@ -1,0 +1,11 @@
+{
+  "types": [
+    { "id": "EQ-TRAC", "name": "Tractor", "icon": "tractor", "defaultRate": 500, "rateType": "per_acre" },
+    { "id": "EQ-HARV", "name": "Combine Harvester", "icon": "harvester", "defaultRate": 1200, "rateType": "per_acre" },
+    { "id": "EQ-ROTA", "name": "Rotavator", "icon": "rotate", "defaultRate": 400, "rateType": "per_acre" },
+    { "id": "EQ-PUMP", "name": "Water Pump", "icon": "pump", "defaultRate": 300, "rateType": "per_acre" },
+    { "id": "EQ-SEED", "name": "Seed Drill", "icon": "seed-drill", "defaultRate": 350, "rateType": "per_acre" },
+    { "id": "EQ-SPRAY", "name": "Sprayer", "icon": "spray", "defaultRate": 250, "rateType": "per_acre" },
+    { "id": "EQ-TRANS", "name": "Transport Vehicle", "icon": "truck", "defaultRate": 600, "rateType": "per_acre" }
+  ]
+}
