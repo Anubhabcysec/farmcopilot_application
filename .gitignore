@@ -3,11 +3,6 @@ node_modules/
 dist/
 build/
 __MACOSX/
-<<<<<<< HEAD
 .DS_Store
-.env
 .env.*
 !.env.example
-=======
-.DS_Store
->>>>>>> 3731659b5bbcf1925efacfd9aa3504791ba3f09d
