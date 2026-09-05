@@ -65,7 +65,11 @@ USB-connected phone, see sections 5–7 below.
 ## 1. What changed
 
 **New files**
+<<<<<<< HEAD
 - `frontend/capacitor.config.ts` — Capacitor config (app id, app name, web dir, dev live-reload template). Requires `typescript` as a devDependency (now added to `package.json`/`package-lock.json`) — Capacitor's CLI needs it to parse a `.ts` config file. (An earlier pass tried a plain `.js` config to avoid that dependency, but Capacitor's JS-config loader doesn't unwrap ESM's `export default` the way its TS loader does — with this project's `"type": "module"`, that silently loaded an empty config instead of erroring, which is worse than needing one extra devDependency. `.ts` + `typescript` is the correct, well-tested path.)
+=======
+- `frontend/capacitor.config.ts` — Capacitor config (app id, app name, web dir, dev live-reload template).
+>>>>>>> 3731659b5bbcf1925efacfd9aa3504791ba3f09d
 - `frontend/android/` — the generated native Android project (Gradle project, `AndroidManifest.xml`, icons, splash screens).
 - `frontend/src/utils/geo.js` — drop-in `getCurrentPosition()` that routes through the native `@capacitor/geolocation` plugin on Android, and straight to `navigator.geolocation` on web (unchanged behavior there).
 - `frontend/src/utils/nativeInit.js` — one-time native shell setup (status bar, splash screen), no-op on web.

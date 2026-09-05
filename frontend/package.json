@@ -47,7 +47,10 @@
     "globals": "^17.4.0",
     "postcss": "^8.5.8",
     "tailwindcss": "^4.2.2",
+<<<<<<< HEAD
     "typescript": "^6.0.3",
+=======
+>>>>>>> 3731659b5bbcf1925efacfd9aa3504791ba3f09d
     "vite": "^8.0.1",
     "vite-plugin-pwa": "^1.3.0"
   }
