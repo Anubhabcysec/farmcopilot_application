@@ -1,4 +1,4 @@
-<div align="center">
+
 🌾 Farm Copilot — Android
 Smart Farming, Simplified. Now in your pocket.
 The official Android app for Farm Copilot — AI-powered crop diagnosis, disease treatment, product ordering, and personalized farming recommendations, built on the same platform as the web app.
