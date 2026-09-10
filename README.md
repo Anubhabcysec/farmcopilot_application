@@ -33,7 +33,7 @@ App	React (Vite), TypeScript, Tailwind CSS
 Platform	Android (packaged from the shared web codebase)
 Backend	Node.js, Express (shared with the web app)
 Integrations	Maps API, Live Weather API, AI/ML models for crop & soil analysis
-</div>
+
 ---
 ⚙️ Getting Started
 Prerequisites
@@ -43,8 +43,8 @@ Android Studio (for building/running the Android app)
 Installation
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Anubhabcysec/<android-repo-name>.git
-cd <android-repo-name>
+git clone https://github.com/Anubhabcysec/farmcopilot_application.git
+cd farmcopilot_application
 
 # 2. Install dependencies
 npm install
@@ -64,14 +64,4 @@ Platform	Repo
 🌐 Web App	Farm_Copilot
 📱 Android App	You're here
 ---
-🤝 Contributors
-<a href="https://github.com/Anubhabcysec">
-  <img src="https://github.com/Anubhabcysec.png" width="60" style="border-radius:50%" />
-</a>
-Anubhab
----
-📄 License
-This project currently has no license specified. Add one (e.g. MIT) if you plan to open-source it.
-<div align="center">
-Made with 🌾 for farmers.
-</div>
+
